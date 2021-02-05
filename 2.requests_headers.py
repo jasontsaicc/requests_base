@@ -16,4 +16,4 @@ headers = {
 response1 = requests.get(url, headers=headers)
 
 print(len(response1.content.decode()))
-# print(response1.content.decode())
+print(response1.content.decode())
