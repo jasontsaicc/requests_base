@@ -50,8 +50,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.10.translate">
-    <configuration name="10.translate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10.youdao_translate">
+    <configuration name="10.youdao_translate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +64,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.translate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.youdao_translate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10.translate" />
+        <item itemvalue="Python.10.youdao_translate" />
         <item itemvalue="Python.11.text" />
         <item itemvalue="Python.8.requests_proxies" />
         <item itemvalue="Python.9.requests_verify" />
