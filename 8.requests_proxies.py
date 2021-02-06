@@ -1,11 +1,11 @@
 import requests
 
-url = 'http://www.baidu.com'
+url = "http://fy.iciba.com/ajax.php?a=fy"
 
 proxies = {
-    'http':'http://47.93.24.243:8080',
+    'http':'http://113.214.13.1:1080',
     # 'https':'https://183.166.162.226:9999'
 }
 response = requests.get(url, proxies=proxies)
 
-print(response.text)
+print(response.content.decode())

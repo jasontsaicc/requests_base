@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b921aa32-37b4-4159-aedf-ee0a6bb6e3ff" name="Default Changelist" comment="requests_3.發送帶參數的請求">
-      <change afterPath="$PROJECT_DIR$/9.requests_verify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.translate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8.requests_proxies.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.requests_proxies.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1o4Khkcn7doeOWgf41c5Ek3Ww5V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,8 +50,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.9.requests_verify">
-    <configuration name="5.requests_cookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10.translate">
+    <configuration name="10.translate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +64,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.requests_cookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.translate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6.utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11.text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="requests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,7 +86,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9.requests_verify" />
+        <item itemvalue="Python.10.translate" />
+        <item itemvalue="Python.11.text" />
         <item itemvalue="Python.8.requests_proxies" />
+        <item itemvalue="Python.9.requests_verify" />
         <item itemvalue="Python.7.requests_timeout" />
-        <item itemvalue="Python.6.utils" />
-        <item itemvalue="Python.5.requests_cookies" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +203,7 @@
       <updated>1612540544546</updated>
       <workItem from="1612540545922" duration="37000" />
       <workItem from="1612540610117" duration="4164000" />
-      <workItem from="1612590624020" duration="3606000" />
+      <workItem from="1612590624020" duration="9449000" />
     </task>
     <task id="LOCAL-00001" summary="requests_get">
       <created>1612541702157</created>
@@ -251,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612595744043</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="requests_verify參數_忽略CA證書">
+      <created>1612596006370</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612596006370</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +293,8 @@
     <MESSAGE value="requests_github_with_cookie" />
     <MESSAGE value="requests_cookiejar使用" />
     <MESSAGE value="requests_proxies代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="requests_proxies代理" />
+    <MESSAGE value="requests_verify參數_忽略CA證書" />
+    <option name="LAST_COMMIT_MESSAGE" value="requests_verify參數_忽略CA證書" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -286,10 +304,18 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/10.translate.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/requests$10_translate.coverage" NAME="10.translate Coverage Results" MODIFIED="1612602218191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requests$11_text.coverage" NAME="11.text Coverage Results" MODIFIED="1612601194256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requests$9_requests_verify.coverage" NAME="9.requests_verify Coverage Results" MODIFIED="1612595935917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requests$1_requests_basic.coverage" NAME="1.requests_basic Coverage Results" MODIFIED="1612542263120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requests$5_requests_cookies.coverage" NAME="5.requests_cookies Coverage Results" MODIFIED="1612592297364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requests$3_requests_params.coverage" NAME="3.requests_params Coverage Results" MODIFIED="1612544734119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -297,6 +323,6 @@
     <SUITE FILE_PATH="coverage/requests$7_requests_timeout.coverage" NAME="7.requests_timeout Coverage Results" MODIFIED="1612593253411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requests$6_utils.coverage" NAME="6.utils Coverage Results" MODIFIED="1612592744945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/requests$4_requests_headrs_cookie.coverage" NAME="4.requests_headrs_cookie Coverage Results" MODIFIED="1612591320462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/requests$8_requests_proxies.coverage" NAME="8.requests_proxies Coverage Results" MODIFIED="1612595419057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/requests$8_requests_proxies.coverage" NAME="8.requests_proxies Coverage Results" MODIFIED="1612599550328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
