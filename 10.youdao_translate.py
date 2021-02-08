@@ -27,7 +27,7 @@ class Translate(object):
     def parse_data(self, data):
 
         dict_data = json.loads(data)
-        print(dict_data)
+        # print(dict_data)
         print(dict_data['translateResult'][0][-1]['tgt'])
 
     def run(self):
